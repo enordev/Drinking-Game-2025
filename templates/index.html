@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinking Game</title>
+</head>
+<body>
+    <h1>Haista vittu.</h1>
+    <form action="/add_player" method="post">
+        <input type="text" name="player_name" placeholder="Enter player name" required>
+        <button type="submit">Add Player</button>
+    </form>
+    <ul>
+        {% for player in players %}
+            <li>{{ player }}</li>
+        {% endfor %}
+    </ul>
+    <p>Tasks left: {{ tasks_left }}</p>
+    <a href="/start_game">Start Game</a>
+</body>
+</html>
