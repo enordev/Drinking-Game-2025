@@ -37,7 +37,6 @@ def next_turn():
         return render_template("game_over.html")
     current_player = players[current_player_index]
     task = random.choice(tasks)
-    tasks.remove(task)
     current_player_index = (current_player_index + 1) % len(players)
     return render_template("task.html", player=current_player, task=task)
 
