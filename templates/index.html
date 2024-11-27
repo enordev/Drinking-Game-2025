@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Drinking Game</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drinking Game</title>
+	<style>
+		button {
+			color: #ffffff;
+			background-color: #1d4183;
+			font-size: 22px;
+			padding: 15px 50px;
+			cursor: pointer
+		}
+		button:hover {
+			color: #ffffff;
+			background-color: #2c61c2;
+		}
+		h1 {
+			font-family:comic-sans;
+			font-size:3rem
+		}
+		p {	
+			font-family:Verdana;
+			font-size:1rem;
+		}
+	</style>
 </head>
 <body>
-    <h1>Haista vittu.</h1>
+    <h1>Biggumöggibibbalopeli</h1>
     <form action="/add_player" method="post">
         <input type="text" name="player_name" placeholder="Enter player name" required>
         <button type="submit">Add Player</button>
