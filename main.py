@@ -6,10 +6,11 @@ app = Flask(__name__)
 # Initialize players and tasks
 players = []
 tasks = [
-    {"text": "Sing a song", "image": "images/sing_image.png"},
-    {"text": "Do 10 push-ups", "image": "images/pushups_image.png"},
-    {"text": "Tell a joke", "image": "images/joke_image.png"},
-    {"text": "Dance for 30 seconds", "image": "images/dance_image.png"},
+    {"text": "Ota huikka", "image": "images/huikka.webp"},
+    {"text": "Kerro vitsi", "image": "images/pushups_image.png"},
+    {"text": "Kertokaa lempparielokuvanne, jos jollain on sama he juo 2", "image": "images/shrek.jpg"},
+    {"text": "Laita BÄNGERI biisi jonoon", "image": "images/catdj.webp"},
+    {"text": "Tarjoa hörppy", "image": "images/huikka.webp"},
 ]
 current_player_index = 0
 
