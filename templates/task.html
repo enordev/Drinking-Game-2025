@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task</title>
+	<style>
+			<style>
+
+		a {
+			color: #ffffff;
+			font-family:Verdana;
+			background-color: #1d4183;
+			font-size: 22px;
+			padding: 15px 50px;
+		}
+		a:hover {
+			color: #ffffff;
+			background-color: #2c61c2;
+		}
+		h1 {
+			font-family: "Comic Sans MS", "Comic Sans";
+			font-size:36px;
+			color: #000000;
+			background-color: #aec2e6;
+			padding: 15px 50px;
+			letter-spacing: .15rem;
+		}
+		h2 {
+			font-family: "Comic Sans MS", "Comic Sans";
+			font-size:30px
+		p {	
+			font-family:Verdana;
+			font-size:22px;
+		}
+	</style>
 </head>
 <body>
-    <h1>{{ player }}, your task is:</h1>
-    <h2>{{ task.text }}</h2>
+    <h2>{{ player }}, your task is:</h1>
+    <h1>{{ task.text }}</h2>
     <img src="{{ url_for('static', filename=task.image) }}" alt="Task Image" width="300">
     <a href="/next_turn">Next Turn</a>
 </body>
