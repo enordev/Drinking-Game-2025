@@ -83,6 +83,12 @@ def next_turn():
     task = random.choice(tasks)
     current_player_index = (current_player_index + 1) % len(players)
     return render_template("task.html", player=current_player, task=task)
+    
+@app.route("/reset_players", methods=["POST"])
+def reset_players():
+    global players
+    players = []  # Clear the players list
+    return redirect(url_for("home"))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=false)

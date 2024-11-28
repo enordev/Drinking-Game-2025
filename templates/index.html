@@ -41,10 +41,12 @@
 </head>
 <body>
     <h1>Biggumöggibibbalopeli</h1>
+	<br>
     <form action="/add_player" method="post">
         <input type="text" name="player_name" placeholder="Enter player name" required>
         <button type="submit">Add Player</button>
     </form>
+	<br>
     <ul>
         {% for player in players %}
             <li>{{ player }}</li>
@@ -52,5 +54,9 @@
     </ul>
     <p>Tasks left: {{ tasks_left }}</p>
     <a href="/start_game">Start Game</a>
+	<br>
+	<form action="{{ url_for('reset_players') }}" method="post">
+        <button type="submit">Reset Players</button>
+    </form>
 </body>
 </html>
