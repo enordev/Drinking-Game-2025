@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Initialize players and tasks
 players = [
-"kakka",
+"enor",
 ]
 tasks = [
     {"text": "Ota huikka", "image": "images/birbdrink.webp"},
@@ -25,8 +25,9 @@ tasks = [
     {"text": "äänestäkää kuka on vähiten kännissä, hän juo shotin, jos kaikki on hyvässä maistissa ota hörö", "image": "images/kitara.webp"},
     {"text": "Kaikille välivesi", "image": "images/kitara.webp"},
     {"text": f"Kädenvääntö pelaajaa {random.choice(players)} vastaan", "image": "images/handjob.webp"},
+    
  # Chatgpt based
-    {"text": f"Valitse pelaaja {random.choice(players)}, ja hän saa päättää kaikille yhteisen juomapelin säännön.", "image": "images/rulemaker.webp"},
+    {"text": f"Keksi sääntö", "image": "images/rulemaker.webp"},
     {"text": "Kaikki, joilla on siniset vaatteet, juo 2.", "image": "images/blueclothes.webp"},
     {"text": "Kaikki ketkä juo lasista, juo.", "image": "images/glasses.webp"},
     {"text": f"Pelaaja {random.choice(players)} valitsee kuka juo 1", "image": "images/pointdrink.webp"},
@@ -46,7 +47,7 @@ tasks = [
     
     {"text": "Paljasta jokin erikoinen taitosi, tai juo 2.", "image": "images/talent.webp"},
     {"text": f"Keksi pelaajalle {random.choice(players)} lempinimi. Jos muut eivät hyväksy sitä, juot 2.", "image": "images/nickname.webp"},
-    {"text": "Valitse elokuva tai TV-sarja ja kuvaile se kolmella sanalla. {random.choice(players)} arvaa ja juokaa vaikka molemmat emt", "image": "images/movies.webp"},
+    {"text": f"Valitse elokuva tai TV-sarja ja kuvaile se kolmella sanalla. {random.choice(players)} arvaa ja juokaa vaikka molemmat emt", "image": "images/movies.webp"},
     {"text": f"Arvaa tykkääkö {random.choice(players)} enemmän pizzasta vai hampurilaisista. Jos se on väärin, juo 1.", "image": "images/foodguess.webp"},
     {"text": "yksi totuus ja kaksi valhetta", "image": "images/truthlie.webp"},
     {"text": "Kaikki kertokaa yksi asia bucket listiltäsi. Jos et halua kertoa, juo 2.", "image": "images/bucketlist.webp"},
