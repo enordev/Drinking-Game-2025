@@ -30,7 +30,7 @@
 			background-color: #2c61c2;
 		}
 		h1 {
-			font-family:comic-sans;
+			font-family: "Comic Sans MS", "Comic Sans";
 			font-size:40px
 		}
 		p {	
@@ -54,6 +54,8 @@
     </ul>
     <p>Tasks left: {{ tasks_left }}</p>
     <a href="/start_game">Start Game</a>
+	<br>
+	<br>
 	<br>
 	<form action="{{ url_for('reset_players') }}" method="post">
         <button type="submit">Reset Players</button>
