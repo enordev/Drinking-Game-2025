@@ -3,14 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>anna mulle rahaa</title>
     <link rel="stylesheet" href="styles/mainstyle1.css">
+    <style>
+        /* Add CSS directly for simplicity */
+        .task-image {
+            width: 300px;
+            height: 300px;
+            display: block;
+            margin: 20px auto;
+            background-color: #f0f0f0; /* Light gray background */
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
 </head>
 <body>
     <h2>{{ player }}, your task is:</h2>
     <h1>{{ task.text }}</h1>
-    <img src="{{ url_for('static', filename=task.image) }}" alt="Task Image" width="300">
+    <div 
+        class="task-image" 
+        style="background-image: url('{{ url_for('static', filename=task.image) }}');">
+        <!-- Placeholder text if the image doesn't load -->
+        <noscript>
+            <p>Image not available</p>
+        </noscript>
+    </div>
     <br>
-	<a href="/next_turn">Next Turn</a>
+    <a href="/next_turn">Next Turn</a>
 </body>
 </html>

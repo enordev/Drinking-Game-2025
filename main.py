@@ -6,11 +6,12 @@ app = Flask(__name__)
 
 # Initialize players and tasks
 players = []
+used_tasks = []
 
-# kirjoita "pelaajan" tai "pelaajalle" ja ohjelma lisää randomi nimen players arraysta sen jälkeen
 # Load tasks from the JSON file
 with open("tasks.json", "r", encoding="utf-8") as file:
     tasks = json.load(file)
+
 current_player_index = 0
 
 @app.route("/")
@@ -26,18 +27,31 @@ def add_player():
 
 @app.route("/start_game")
 def start_game():
-    if not players or not tasks:
+    if not players or not (tasks or used_tasks):
         return redirect(url_for("home"))
     return redirect(url_for("next_turn"))
 
 @app.route("/next_turn")
 def next_turn():
-    global current_player_index
-    if not tasks:
-        return render_template("game_over.html")
+    global current_player_index, tasks, used_tasks
     
+    if not tasks and not used_tasks:
+        return render_template("game_over.html")  # All tasks have been completed
+
     current_player = players[current_player_index]
-    task_template = random.choice(tasks)
+
+    # Decide whether to pick from used tasks (10% chance)
+    if used_tasks and random.random() < 0.1:  # 10% chance
+        task_template = random.choice(used_tasks)
+    else:
+        if tasks:
+            task_template = random.choice(tasks)
+            tasks.remove(task_template)  # Remove from tasks
+            used_tasks.append(task_template)  # Add to used_tasks
+        else:
+            # Fallback to used_tasks if tasks is empty
+            task_template = random.choice(used_tasks)
+
     task_text = task_template["text"]
     
     # Replace placeholders in the task text with dynamic player names
