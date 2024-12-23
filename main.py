@@ -55,16 +55,9 @@ def next_turn():
     task_text = task_template["text"]
     
     # Replace placeholders in the task text with dynamic player names
-    if "pelaajalle" in task_text or "pelaajan" in task_text or "pelaajaa" in task_text or "pelaajasta" in task_text:
+    if "$" in task_text:
         random_player = random.choice([p for p in players if p != current_player])  # Exclude current player
-        task_text = (
-            task_text
-            .replace("pelaajalle", f"pelaajalle {random_player}")
-            .replace("pelaajan", f"pelaajan {random_player}")
-            .replace("pelaajaa", f"pelaajaa {random_player}")
-            .replace("pelaajasta", f"pelaajasta {random_player}")
-        )
-
+        task_text = task_text.replace("$", random_player)
     
     current_player_index = (current_player_index + 1) % len(players)
     return render_template("task.html", player=current_player, task={"text": task_text, "image": task_template["image"]})
