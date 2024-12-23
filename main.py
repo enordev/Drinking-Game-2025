@@ -54,7 +54,7 @@ def next_turn():
 
     task_text = task_template["text"]
     
-    # Replace placeholders in the task text with dynamic player names
+    # Replace $ in the task text with random player name
     if "$" in task_text:
         random_player = random.choice([p for p in players if p != current_player])  # Exclude current player
         task_text = task_text.replace("$", random_player)
