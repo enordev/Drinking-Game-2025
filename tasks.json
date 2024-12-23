@@ -32,7 +32,7 @@
     {"text": "Esitä kysymys pelaajalle, jos hän kieltäytyy vastaamasta, hän juo 2.", "image": "images/interview.jpg"},
     {"text": "Kaikki, jotka ovat myöhästyneet jostain tänä vuonna, juo.", "image": "images/parking.webp"},
     {"text": "Kaikki kertovat jotain mitä he ovat oppineet tänään. Jos et keksi mitään, juot.", "image": "images/brain.webp"},
-    {"text": "Kategoria", "image": "images/category.webp"},
+    {"text": "Kategoria", "image": "images/category.jpg"},
     {"text": "Karin bisnes koulu reference tai juo", "image": "images/kari.png"},
     {"text": "Kaikki, jotka ovat ottaneet selfien tänään, juo.", "image": "images/selfie.webp"},
     {"text": "Ota huikka ja valitse toinen, joka tekee saman.", "image": "images/chug.webp"},
@@ -47,5 +47,11 @@
     {"text": "Valitse eläin, joka kuvaa sinua parhaiten. Jos muut on eri mieltä, juo 1.", "image": "images/turkle.webp"},
 	{"text": "Split the room", "image": "images/split.webp"},
 	{"text": "Jos joku on vessas, se juo", "image": "images/shit.webp"},
+	{"text": "Sinkut juo", "image": "images/sinkutjuo.webp"},
+	{"text": "Varatut juo", "image": "images/marriage.webp"},
+	{"text": "Most likely to asua tässä juo", "image": "images/house.webp"},
+	{"text": "Arvaa pelaajan syntymäkuukausi, jos väärin, juo 1.", "image": "images/temp.webp"},
+	{"text": "Kaikki kaljanjuojat tarjoaa juomaa", "image": "images/marriage.webp"},
+	{"text": "Kaikki paitsi juo paitsi pelaajaa", "image": "images/marriage.webp"},
 	{"text": "Ota yassified kuva pelaajasta ", "image": "images/yasss.jpg"}
 ]

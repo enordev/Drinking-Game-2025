@@ -61,7 +61,7 @@ def next_turn():
             task_text
             .replace("pelaajalle", f"pelaajalle {random_player}")
             .replace("pelaajan", f"pelaajan {random_player}")
-            .replace("pelaajan", f"pelaajaa {random_player}")
+            .replace("pelaajaa", f"pelaajaa {random_player}")
             .replace("pelaajasta", f"pelaajasta {random_player}")
         )
 
