@@ -1,74 +1,314 @@
 [
-    {"text": "Ota huikka", "image": "images/birbdrink.webp"},
-    {"text": "Kerro vitsi, jos nauraa hän juo, jos ei sie juot. idiootti.", "image": "images/joke.jpg"},
-    {"text": "Kertokaa lempparielokuvanne, jos jollain on sama he juo 2", "image": "images/shrek.jpg"},
-    {"text": "Laita BÄNGERI biisi jonoon", "image": "images/catdj.webp"},
-    {"text": "Tarjoa hörppy pelaajalle $", "image": "images/huikka.webp"},
-    {"text": "Arvaa pelaajan $ lempiväri, jos oikein valitse 2 juopottelijaa, jos väärin juo ite", "image": "images/blue.jpg"},
-    {"text": "Ylävitonen $ kanssa", "image": "images/heilfive.webp"},
-    {"text": "Akat juo", "image": "images/sigmafemale.jpg"},
-    {"text": "Ukot juo", "image": "images/sigmamale.jpg"},
-    {"text": "Tantut juo", "image": "images/winrar.webp"},
-    {"text": "Tantut juottaa", "image": "images/juottaa.webp"},
-    {"text": "Tee 3 aineksen drinkki, $ juo sen", "image": "images/wd40.webp"},
-    {"text": "Kaikki ketkä on soittanut kitaraa illan aikana juo", "image": "images/kitara.webp"},
-    {"text": "Äänestäkää kuka on eniten kännissä, hän juo vettä", "image": "images/water.webp"},
-    {"text": "Äänestäkää kuka on vähiten kännissä, hän juo shotin", "image": "images/jager.webp"},
-    {"text": "Kaikille välivesi", "image": "images/watercig.webp"},
-    {"text": "Kädenvääntö $ vastaan", "image": "images/armwrestle.webp"},
-    {"text": "Kissanomistajat juo", "image": "images/kissastrong.webp"},
-    {"text": "Koiranomistajat juo", "image": "images/doge.webp"},
-    {"text": "Keksi sääntö", "image": "images/warning.png"},
-    {"text": "Kaikki, joilla on siniset vaatteet, juo 2.", "image": "images/blue.jpg"},
-    {"text": "Kaikki ketkä juo lasista, juo.", "image": "images/glass.webp"},
-    {"text": "Valitse kuka juo", "image": "images/therock.jpg"},
-    {"text": "Keksi kielto! Se, joka rikkoo sitä seuraavaksi, juo 3.", "image": "images/dont.jpg"},
-    {"text": "Kaikki ottavat huikan yhtä aikaa.", "image": "images/cockhold.webp"},
-    {"text": "Nimeä nainen. 5 sek aikaa tai juo", "image": "images/nameawoman.jpg"},
-    {"text": "Arvaa pelaajan $ syntymäkuukausi, jos väärin, juo 1.", "image": "images/calendar.webp"},
-    {"text": "Kaikki, joilla on puhelin kädessä, juo.", "image": "images/phone.webp"},
-    {"text": "Tanssi humppaa tai juo", "image": "images/humppaa.jpg"},
-    {"text": "Kerro nolo tarina itsestäsi tai juo 2.", "image": "images/nolo.webp"},
-    {"text": "Esitä kysymys pelaajalle $, jos hän kieltäytyy vastaamasta, hän juo 2.", "image": "images/interview.jpg"},
-    {"text": "Kaikki, jotka ovat myöhästyneet jostain tänä vuonna, juo.", "image": "images/parking.webp"},
-    {"text": "Mitä olet oppinut tänään? Jos et keksi mitään, juot.", "image": "images/brain.webp"},
-    {"text": "Kategoria", "image": "images/category.jpg"},
-    {"text": "Karin bisnes koulu reference tai juo", "image": "images/kari.png"},
-    {"text": "Kaikki, jotka ovat ottaneet selfien tänään, juo.", "image": "images/selfie.webp"},
-    {"text": "Ota huikka ja valitse toinen, joka tekee saman.", "image": "images/chug.webp"},
-    {"text": "Paljasta jokin erikoinen taitosi, tai juo 2.", "image": "images/lego.webp"},
-    {"text": "Keksi pelaajalle $ lempinimi. Jos muut eivät hyväksy sitä, juot 2.", "image": "images/hitler.webp"},
-    {"text": "Valitse elokuva tai TV-sarja ja kuvaile se kolmella sanalla. Arvaa ja juokaa vaikka molemmat emt", "image": "images/harry.webp"},
-    {"text": "Arvaa tykkääkö $ enemmän pizzasta vai hampurilaisista. Väärin = juo", "image": "images/pizza.webp"},
-    {"text": "Yksi totuus ja kaksi valhetta", "image": "images/lies.webp"},
-    {"text": "Kaikki kertokaa yksi asia bucket listiltäsi. Jos et halua kertoa, juo 2.", "image": "images/bucket.webp"},
-    {"text": "Valitse juomakaveri, juotte seuraavan kierroksen yhdessä.", "image": "images/buddy.webp"},
-    {"text": "Lähetä meemi pelaajalle $ tai juo", "image": "images/meme.webp"},
-    {"text": "Valitse eläin, joka kuvaa sinua parhaiten. Jos muut on eri mieltä, juo 1.", "image": "images/turkle.webp"},
-	{"text": "Split the room", "image": "images/split.webp"},
-	{"text": "Jos joku on vessas, se juo", "image": "images/shit.webp"},
-	{"text": "Sinkut juo", "image": "images/sinkutjuo.webp"},
-	{"text": "Varatut juo", "image": "images/marriage.webp"},
-	{"text": "Pussaa $ tai juo", "image": "images/kiss.webp"},
-	{"text": "Most likely to asua tässä juo", "image": "images/house.webp"},
-	{"text": "Most likely to ostaa jotain funny turhaa paskaa juo", "image": "images/funnyshit.webp"},
-	{"text": "Arvaa pelaajan $ syntymäkuukausi, jos väärin, juo 1.", "image": "images/temp.webp"},
-	{"text": "Kaikki kaljanjuojat tarjoaa juomaa tälle pelaajalle", "image": "images/marriage.webp"},
-	{"text": "Kaikki paitsi $ juo!", "image": "images/marriage.webp"},
-	{"text": "Päätä juoko $", "image": "images/vibecheck.jpg.webp"},
-	{"text": "Laita biisi jonoon, $ päättää onks se hyvä", "image": "images/banger.webp"},
-	{"text": "Fuck marry kill: $ ja sen vieressä olevat pelaajat", "image": "images/fmk.webp"},
-	{"text": "Olet kysymysmestari.", "image": "images/trust.webp"},
-	{"text": "Voit unoreversee tai blokata oman juomisen kerran", "image": "images/unoreverse.webp"},
-	{"text": "Vedä tuplana seuraava roundi", "image": "images/doublebeer.jpg"},
-	{"text": "Vika kuka seisoo, juo", "image": "images/stand.webp"},
-	{"text": "Jos et ajais tätä päivittäin, juo", "image": "images/shrekcar.webp"},
-	{"text": "Jos $ on tehnyt talousrikoksia tänä vuonna, kaikki juo", "image": "images/zucc.webp"},
-	{"text": "Kasvissyöjät juo", "image": "images/kasvis.webp"},
-	{"text": "Animen katselijat juo, 2 jos osaat japania", "image": "images/anime.webp"},
-	{"text": "Opiskelijat juo", "image": "images/student.webp"},
-	{"text": "Kierrä talon ympäri tai juo", "image": "images/houseforest.webp"},
-	{"text": "Mitä olet korjannut viimeksi? Jos et keksi, juo", "image": "images/fix.webp"},
-	{"text": "Lue lause wikipediasta tai hikipediasta, $ arvaa kumpi se on", "image": "images/hikipedia.jpg"},
-	{"text": "Ota yassified kuva pelaajasta $", "image": "images/yasss.jpg"}
+  {
+    "text": "Ota huikka",
+    "image": "images/birbdrink.webp"
+  },
+  {
+    "text": "Kerro vitsi, jos nauraa hän juo, jos ei sie juot. idiootti.",
+    "image": "images/joke.jpg"
+  },
+  {
+    "text": "Kertokaa lempparielokuvanne, jos jollain on sama he juo 2",
+    "image": "images/shrek.jpg"
+  },
+  {
+    "text": "Laita BÄNGERI biisi jonoon",
+    "image": "images/catdj.webp"
+  },
+  {
+    "text": "Tarjoa hörppy pelaajalle $",
+    "image": "images/huikka.webp"
+  },
+  {
+    "text": "Arvaa pelaajan $ lempiväri, jos oikein valitse 2 juopottelijaa, jos väärin juo ite",
+    "image": "images/blue.jpg"
+  },
+  {
+    "text": "Ylävitonen $ kanssa",
+    "image": "images/heilfive.webp"
+  },
+  {
+    "text": "Akat juo",
+    "image": "images/sigmafemale.jpg"
+  },
+  {
+    "text": "Ukot juo",
+    "image": "images/sigmamale.jpg"
+  },
+  {
+    "text": "Tantut juo",
+    "image": "images/winrar.webp"
+  },
+  {
+    "text": "Tantut juottaa",
+    "image": "images/juottaa.webp"
+  },
+  {
+    "text": "Tee 3 aineksen drinkki, $ juo sen",
+    "image": "images/wd40.webp"
+  },
+  {
+    "text": "Kaikki ketkä on soittanut kitaraa illan aikana juo",
+    "image": "images/kitara.webp"
+  },
+  {
+    "text": "Äänestäkää kuka on eniten kännissä, hän juo vettä",
+    "image": "images/water.webp"
+  },
+  {
+    "text": "Äänestäkää kuka on vähiten kännissä, hän juo shotin",
+    "image": "images/jager.webp"
+  },
+  {
+    "text": "Kaikille välivesi",
+    "image": "images/watercig.webp"
+  },
+  {
+    "text": "Kädenvääntö $ vastaan",
+    "image": "images/armwrestle.webp"
+  },
+  {
+    "text": "Kissanomistajat juo",
+    "image": "images/kissastrong.webp"
+  },
+  {
+    "text": "Koiranomistajat juo",
+    "image": "images/doge.webp"
+  },
+  {
+    "text": "Keksi sääntö",
+    "image": "images/warning.png"
+  },
+  {
+    "text": "Kaikki, joilla on siniset vaatteet, juo 2.",
+    "image": "images/blue.jpg"
+  },
+  {
+    "text": "Kaikki ketkä juo lasista, juo.",
+    "image": "images/glass.webp"
+  },
+  {
+    "text": "Valitse kuka juo",
+    "image": "images/therock.jpg"
+  },
+  {
+    "text": "Keksi kielto! Se, joka rikkoo sitä seuraavaksi, juo 3.",
+    "image": "images/dont.jpg"
+  },
+  {
+    "text": "Kaikki ottavat huikan yhtä aikaa.",
+    "image": "images/cockhold.webp"
+  },
+  {
+    "text": "Nimeä nainen. 5 sek aikaa tai juo",
+    "image": "images/nameawoman.jpg"
+  },
+  {
+    "text": "Arvaa pelaajan $ syntymäkuukausi, jos väärin, juo 1.",
+    "image": "images/calendar.webp"
+  },
+  {
+    "text": "Kaikki, joilla on puhelin kädessä, juo.",
+    "image": "images/phone.webp"
+  },
+  {
+    "text": "Tanssi humppaa tai juo",
+    "image": "images/humppaa.jpg"
+  },
+  {
+    "text": "Kerro nolo tarina itsestäsi tai juo 2.",
+    "image": "images/nolo.webp"
+  },
+  {
+    "text": "Esitä kysymys pelaajalle $, jos hän kieltäytyy vastaamasta, hän juo 2.",
+    "image": "images/interview.jpg"
+  },
+  {
+    "text": "Kaikki, jotka ovat myöhästyneet jostain tänä vuonna, juo.",
+    "image": "images/parking.webp"
+  },
+  {
+    "text": "Mitä olet oppinut tänään? Jos et keksi mitään, juot.",
+    "image": "images/brain.webp"
+  },
+  {
+    "text": "Kategoria",
+    "image": "images/category.jpg"
+  },
+  {
+    "text": "Karin bisnes koulu reference tai juo",
+    "image": "images/kari.png"
+  },
+  {
+    "text": "Kaikki, jotka ovat ottaneet selfien tänään, juo.",
+    "image": "images/selfie.webp"
+  },
+  {
+    "text": "Ota huikka ja valitse toinen, joka tekee saman.",
+    "image": "images/chug.webp"
+  },
+  {
+    "text": "Paljasta jokin erikoinen taitosi, tai juo 2.",
+    "image": "images/lego.webp"
+  },
+  {
+    "text": "Keksi pelaajalle $ lempinimi. Jos muut eivät hyväksy sitä, juot 2.",
+    "image": "images/hitler.webp"
+  },
+  {
+    "text": "Valitse elokuva tai TV-sarja ja kuvaile se kolmella sanalla. Arvaa ja juokaa vaikka molemmat emt",
+    "image": "images/harry.webp"
+  },
+  {
+    "text": "Arvaa tykkääkö $ enemmän pizzasta vai hampurilaisista. Väärin = juo",
+    "image": "images/pizza.webp"
+  },
+  {
+    "text": "Yksi totuus ja kaksi valhetta",
+    "image": "images/lies.webp"
+  },
+  {
+    "text": "Kaikki kertokaa yksi asia bucket listiltäsi. Jos et halua kertoa, juo 2.",
+    "image": "images/bucket.webp"
+  },
+  {
+    "text": "Valitse juomakaveri, juotte seuraavan kierroksen yhdessä.",
+    "image": "images/buddy.webp"
+  },
+  {
+    "text": "Lähetä meemi pelaajalle $ tai juo",
+    "image": "images/meme.webp"
+  },
+  {
+    "text": "Valitse eläin, joka kuvaa sinua parhaiten. Jos muut on eri mieltä, juo 1.",
+    "image": "images/turkle.webp"
+  },
+  {
+    "text": "Split the room",
+    "image": "images/split.webp"
+  },
+  {
+    "text": "Jos joku on vessas, se juo",
+    "image": "images/shit.webp"
+  },
+  {
+    "text": "Sinkut juo",
+    "image": "images/sinkutjuo.webp"
+  },
+  {
+    "text": "Varatut juo",
+    "image": "images/marriage.webp"
+  },
+  {
+    "text": "Pussaa $ tai juo",
+    "image": "images/kiss.webp"
+  },
+  {
+    "text": "Most likely to asua tässä juo",
+    "image": "images/house.webp"
+  },
+  {
+    "text": "Most likely to ostaa jotain funny turhaa paskaa juo",
+    "image": "images/funnyshit.webp"
+  },
+  {
+    "text": "Arvaa pelaajan $ syntymäkuukausi, jos väärin, juo 1.",
+    "image": "images/temp.webp"
+  },
+  {
+    "text": "Kaikki kaljanjuojat tarjoaa juomaa tälle pelaajalle",
+    "image": "images/marriage.webp"
+  },
+  {
+    "text": "Kaikki paitsi $ juo!",
+    "image": "images/marriage.webp"
+  },
+  {
+    "text": "Päätä juoko $",
+    "image": "images/vibecheck.jpg.webp"
+  },
+  {
+    "text": "Laita biisi jonoon, $ päättää onks se hyvä",
+    "image": "images/banger.webp"
+  },
+  {
+    "text": "Fuck marry kill: $ ja sen vieressä olevat pelaajat",
+    "image": "images/fmk.webp"
+  },
+  {
+    "text": "Olet kysymysmestari.",
+    "image": "images/trust.webp"
+  },
+  {
+    "text": "Voit unoreversee tai blokata oman juomisen kerran",
+    "image": "images/unoreverse.webp"
+  },
+  {
+    "text": "Vedä tuplana seuraava roundi",
+    "image": "images/doublebeer.jpg"
+  },
+  {
+    "text": "Vika kuka seisoo, juo",
+    "image": "images/stand.webp"
+  },
+  {
+    "text": "Jos et ajais tätä päivittäin, juo",
+    "image": "images/shrekcar.webp"
+  },
+  {
+    "text": "Jos $ on tehnyt talousrikoksia tänä vuonna, kaikki juo",
+    "image": "images/zucc.webp"
+  },
+  {
+    "text": "Kasvissyöjät juo",
+    "image": "images/kasvis.webp"
+  },
+  {
+    "text": "Animen katselijat juo, 2 jos osaat japania",
+    "image": "images/anime.webp"
+  },
+  {
+    "text": "Opiskelijat juo",
+    "image": "images/student.webp"
+  },
+  {
+    "text": "Työttömät juo",
+    "image": "images/kela.jpg"
+  },
+  {
+    "text": "Työssäkäyvät juo",
+    "image": "images/workingman.webp"
+  },
+  {
+    "text": "Kierrä talon ympäri tai juo",
+    "image": "images/houseforest.webp"
+  },
+  {
+    "text": "Heteroin pelaaja juo",
+    "image": "images/straight.webp"
+  },
+  {
+    "text": "Homoin pelaaja juo",
+    "image": "images/gay.webp"
+  },
+  {
+    "text": "Kuvagalleriaruletti. $ esittää kuvat.",
+    "image": "images/diagram.jpg"
+  },
+  {
+    "text": "Lue lause wikipediasta tai hikipediasta, $ arvaa kumpi se on",
+    "image": "images/hikipedia.jpg"
+  },
+  {
+    "text": "Jos et maksa omaa puhelinliittymääsi, juo",
+    "image": "images/wifi.webp"
+  },
+  {
+    "text": "Kehu pelaajaa $",
+    "image": "images/wifi.webp"
+  },
+  {
+    "text": "Ota yassified kuva pelaajasta $",
+    "image": "images/yasss.jpg"
+  }
 ]
