@@ -40,8 +40,8 @@ def next_turn():
 
     current_player = players[current_player_index]
 
-    # Decide whether to pick from used tasks (10% chance)
-    if used_tasks and random.random() < 0.1:  # 10% chance
+    # Decide whether to pick from used tasks (8% chance)
+    if used_tasks and random.random() < 0.08:  # 8% chance
         task_template = random.choice(used_tasks)
     else:
         if tasks:
