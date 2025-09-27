@@ -4,7 +4,7 @@
     "image": "images/birbdrink.webp"
   },
   {
-    "text": "Kerro vitsi, jos nauraa hän juo, jos ei sie juot. idiootti.",
+    "text": "Saa $ nauramaan",
     "image": "images/joke.jpg"
   },
   {
@@ -100,7 +100,7 @@
     "image": "images/cockhold.webp"
   },
   {
-    "text": "Nimeä nainen. 5 sek aikaa tai juo",
+    "text": "Nimeä nainen. 3 sek aikaa tai juo",
     "image": "images/nameawoman.jpg"
   },
   {
@@ -184,7 +184,7 @@
     "image": "images/turkle.webp"
   },
   {
-    "text": "Split the room",
+    "text": "Split the room 50/50",
     "image": "images/split.webp"
   },
   {
@@ -248,11 +248,11 @@
     "image": "images/stand.webp"
   },
   {
-    "text": "Jos et ajais tätä päivittäin, juo",
+    "text": "Ajokortittomat juo",
     "image": "images/shrekcar.webp"
   },
   {
-    "text": "Jos $ on tehnyt talousrikoksia tänä vuonna, kaikki juo",
+    "text": "Sinä ja $. Kumman juoma on halvempi, tarjoaa hörön.",
     "image": "images/zucc.webp"
   },
   {
@@ -316,7 +316,19 @@
     "image": "images/spacehog.jpg"
   },
   {
-    "text": "Prisoner's dilemma $ kanssa.",
+    "text": "Jos voisit antaa jollekulle miljoona € elokuvan tekemiseks. Kelle antaisit sen?.",
     "image": "images/spidermanpointing.jpg"
-  }
+  },
+  {
+    "text": "Split the room 20/80",
+    "image": "images/split.webp"
+  },
+  {
+    "text": "Olet jotain pelaajasta $. Väärin = juot, Oikein = $ juo",
+    "image": "images/minni.webp"
+  }, 
+  {
+    "text": "Kerro hyvälle kansalle, miksi $ pitäisi olla presidentti",
+    "image": "images/president.webp"
+  } 
 ]
