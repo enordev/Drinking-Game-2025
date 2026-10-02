@@ -116,10 +116,6 @@
     "image": "images/marriage.webp"
   },
   {
-    "text": "Pussaa $ tai juo",
-    "image": "images/kiss.webp"
-  },
-  {
     "text": "Kaikki kaljanjuojat tarjoaa juomaa tälle pelaajalle",
     "image": "images/marriage.webp"
   },
@@ -160,6 +156,50 @@
     "image": "images/kasvis.webp"
   },
   {
+    "text": "ADHD juo",
+    "image": "images/adhd.webp"
+  },
+  {
+    "text": "Smuttia nautiskelevat juo",
+    "image": "images/smut.webp"
+  },
+  {
+    "text": "Iittalan Essence omistajat juo",
+    "image": "images/essence.webp"
+  },
+  {
+    "text": "Jos asunnossasi ei ole tauluja, juo",
+    "image": "images/painting.webp"
+  },
+  {
+    "text": "Jos tilasit Havannan kanapastan, juo",
+    "image": "images/chicken.webp"
+  },
+  {
+    "text": "Jos olet harkinnut jalkakuvien myymistä, juo",
+    "image": "images/quentin.webp"
+  },
+  {
+    "text": "Jos sinulla on enemmän kasveja kuin kavereita, juo",
+    "image": "images/plant.webp"
+  },
+  {
+    "text": "Jos mäcguyveroit autoasi, juo",
+    "image": "images/shitcar.webp"
+  },
+  {
+    "text": "Jos mäcguyveroit autoasi, juo",
+    "image": "images/divacat.webp"
+  },
+  {
+    "text": "Pakanat juo",
+    "image": "images/satan.webp"
+  },
+  {
+    "text": "-karit juo",
+    "image": "images/karit.png"
+  },
+  {
     "text": "Opiskelijat juo",
     "image": "images/student.webp"
   },
@@ -168,12 +208,12 @@
     "image": "images/kela.jpg"
   },
   {
-    "text": "Työssäkäyvät juo",
-    "image": "images/workingman.webp"
+    "text": "Mummocore ihmiset juo",
+    "image": "images/mummo.jpg"
   },
   {
-    "text": "Kierrä talon ympäri tai juo",
-    "image": "images/houseforest.webp"
+    "text": "Työssäkäyvät juo",
+    "image": "images/workingman.webp"
   },
   {
     "text": "Heteroin pelaaja juo",
@@ -188,10 +228,6 @@
     "image": "images/wifi.webp"
   },
   {
-    "text": "Ota yassified kuva pelaajasta $",
-    "image": "images/yasss.jpg"
-  },
-  {
     "text": "Jos voisit antaa jollekulle miljoona € elokuvan tekemiseks. Kelle antaisit sen?.",
     "image": "images/spidermanpointing.jpg"
   },
@@ -202,62 +238,6 @@
   {
     "text": "Kerro hyvälle kansalle, miksi $ pitäisi olla presidentti",
     "image": "images/president.webp"
-  }, 
-  {
-    "text": "Uuden vuoden lupaukset kaikilta",
-    "image": "images/2025.jpg"
-  },
-  {
-    "text": "Top 1 hetki vuonna 2025",
-    "image": "images/2025.jpg"
-  },
-  {
-    "text": "Top 1 tapahtuma vuonna 2025",
-    "image": "images/2025.jpg"
-  },
-  {
-    "text": "Top 1 biisi vuonna 2025",
-    "image": "images/2025.jpg"
-  },
-  {
-    "text": "Top 1 leffa minkä katoit vuonna 2025",
-    "image": "images/2025.jpg"
-  },
-  {
-    "text": "Top 1 sarja vuonna 2025",
-    "image": "images/2025.jpg"
-  },
-  {
-    "text": "Mitä pelaajan $ tulisi tehdä vuonna 2026",
-    "image": "images/2026.webp"
-  },
-  {
-    "text": "Ennustus pelaajasta $ vuodelle 20265",
-    "image": "images/ennustusmies.webp"
-  },
-  {
-    "text": "$ ennustaa siusta jotain",
-    "image": "images/ennustus2.webp"
-  },
-  {
-    "text": "Kerro yleinen ennustus vuodelle 2026",
-    "image": "images/bookfire.webp"
-  },
-  {
-    "text": "Uuden vuoden lupaukset kaikilta",
-    "image": "images/gym.webp"
-  },
-  {
-    "text": "Kuoleeko Donald Trump ens vuonna? Äänestys, vähemmistö juo",
-    "image": "images/jdvance.jpg"
-  },
-  {
-    "text": "Mistä oot kiitollinen tältä vuodelta? Jos et sano ihmistä, $ juo",
-    "image": "images/gift.webp"
-  },
-  {
-    "text": "Ketkä EI ammu raketteja juo!",
-    "image": "images/rocket.webp"
   },
   {
     "text": "Kuskit juo!!",
